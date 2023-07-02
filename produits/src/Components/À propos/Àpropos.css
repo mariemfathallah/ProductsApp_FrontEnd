@@ -1,0 +1,36 @@
+.ftco-animate {
+  position: relative;
+  left: 70px;
+}
+#formControl::placeholder {
+  color: black;
+  text-align: center;
+}
+#formControl {
+  width: 400px;
+  background-color: white;
+  height: 50px;
+  border: none;
+  border-radius: 0%;
+}
+.row {
+  position: relative;
+  top: 100px;
+}
+.card-title {
+  color: #82ae46;
+}
+
+.multi-carousel{
+  position: relative;
+  top:100px
+}
+#img-fluid{
+  width:500px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.multi-carousel-item:hover{
+transform: translate(20px,30%);
+}

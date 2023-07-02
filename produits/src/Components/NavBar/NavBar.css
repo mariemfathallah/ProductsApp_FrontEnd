@@ -1,0 +1,60 @@
+.nav-item .nav-link {
+    font-size: 15px;
+    color: black;
+ 
+}
+.nav-item .nav-link:hover{
+color: #82ae46;
+}
+.icons{
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    position: relative;
+    left: 400px;
+}
+
+.icon-1:hover,.icon-2:hover{
+    color: #82ae46; 
+}
+
+
+.search-icon{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    z-index: 10;
+    cursor: pointer;
+left: 600px;
+
+}
+.searchBox{
+    position: absolute;
+ right: -600px;
+  
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    padding: 0 30px;
+    transition: 0.5s ease-in-out;
+    bottom: 25px;
+ 
+   
+}
+.searchBox input{
+width: 180px;
+    border: none;
+    outline: none;
+    height: 120px;
+    font-size: 1.25rem;
+  background-color: transparent;
+
+
+}
+.searchBox input:focus{
+    width: 100%;
+
+}

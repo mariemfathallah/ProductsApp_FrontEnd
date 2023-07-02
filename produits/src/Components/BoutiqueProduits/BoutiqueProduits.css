@@ -1,0 +1,41 @@
+.remove-btn:hover{
+    background-color: transparent !important;
+    color:red !important
+}
+.iconPlus{
+
+ 
+    position: relative;
+
+    overflow: hidden;
+    padding: 10px;
+ color: #82ae46;
+    float: right;
+    width: 15%;
+    height: 40%;
+    font-size: 20px;
+    border-radius: 0.5rem 0.5rem 0;
+}
+.heartIcon{
+ float: left;   
+ font-size: 30px;
+ position: relative;
+ top: 25px;
+
+}
+.heartIcon:hover,.iconPlus:hover{
+    transform: translateX(40%);
+}
+#img-fluid:hover{
+    transform: scale(1.1);
+
+}
+.codePromo{
+    background-color: #82ae46;
+    color: white;
+    width: 13%;
+
+    border-bottom-right-radius: 20%;
+    font-size: 20px;
+   
+}
